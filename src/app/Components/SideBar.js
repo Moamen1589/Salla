@@ -2,7 +2,7 @@ import '../Styles/side-bar.css'
 import SideBarLink from './Links'
 function SideBar() {
     return (
-        <div className="side-bar hide w-72 h-screen sticky top-0   bg-sideColor">
+        <div className="side-bar hide w-72 h-screen sticky top-0  z-10  bg-sideColor">
 
             <div className="logo  w-full h-24 flex items-center justify-around pr-7  ">
                 <img className=" w-24 " src={"https://cdn.salla.network/images/logo/logo-light-wide.svg"} alt='/' />
