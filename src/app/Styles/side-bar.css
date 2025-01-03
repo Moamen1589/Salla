@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .side-bar {
+    transform: translateX(300px);
+    position: fixed;
+    top: 80px;
+  }
+}
+
+.show {
+  transform: translateX(0px) !important;
+  transition: 0.3s;
+}
+.hide {
+  transition: 0.3s;
+}

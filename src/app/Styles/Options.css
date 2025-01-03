@@ -1,0 +1,12 @@
+.op-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  flex-basis: 90%;  
+  gap: 20px;
+  padding: 40px;
+}
+@media(max-width:768px){
+    .op-container {
+        flex: 1;
+    }
+}
